@@ -2,27 +2,30 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-family: Arial, sans-serif;
-	font-size: 16px;
+	font-family: 'Bruno Ace SC', cursive;
+	font-size: 21px;
 	line-height: 1.5;
-	color: #333;
-	background-color: #1a1a1a; /* Very dark gray */
+	color: #0047AB;
+	background-color: #F0FFFF	;
 }
 
 a {
-	color: #333;
+	color: #000080;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #666;
+	color: #B87333;
 }
 
 /* Header styles */
 header {
-	background-color: #333;
+	background-color: #6495ED;
 	color: #fff;
 	padding: 10px 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 header h1 {
@@ -30,9 +33,15 @@ header h1 {
 	font-size: 24px;
 }
 
+.text-icon {
+	font-size: 24px;
+	color: #fff;
+	text-decoration: none;
+}
+
 /* Navigation styles */
 nav {
-	background-color: #eee;
+	background-color: #6495ED;
 	padding: 10px 20px;
 }
 
@@ -41,7 +50,6 @@ nav ul {
 	padding: 0;
 	list-style: none;
 	display: flex;
-	justify-content: space-between;
 }
 
 nav ul li {
@@ -60,7 +68,7 @@ nav ul li a:hover {
 /* Main content styles */
 main {
 	padding: 20px;
-	max-width: 1200px; /* Change canvas size */
+	max-width: 1980px; /* Change canvas size */
 	margin: 0 auto; /* Center the content */
 }
 
@@ -74,7 +82,11 @@ section h2 {
 
 /* Footer styles */
 footer {
-	background-color: #333;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #6495ED;
 	color: #fff;
 	padding: 10px 20px;
 	text-align: center;
@@ -82,5 +94,5 @@ footer {
 
 footer p {
 	margin: 0;
-	font-size: 14px;
+	font-size: 16px;
 }
